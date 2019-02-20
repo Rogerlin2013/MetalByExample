@@ -18,6 +18,7 @@
 		B5C25D88221BED9300BD9CE8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C25D87221BED9300BD9CE8 /* Metal.framework */; };
 		B5C25D8A221BED9F00BD9CE8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C25D89221BED9F00BD9CE8 /* QuartzCore.framework */; };
 		B5C25D8D221BEE3600BD9CE8 /* MetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C25D8C221BEE3600BD9CE8 /* MetalView.m */; };
+		B5C66333221D26E700587B4E /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B5C66332221D26E700587B4E /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B5C25D89221BED9F00BD9CE8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B5C25D8B221BEE3600BD9CE8 /* MetalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalView.h; sourceTree = "<group>"; };
 		B5C25D8C221BEE3600BD9CE8 /* MetalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalView.m; sourceTree = "<group>"; };
+		B5C66332221D26E700587B4E /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				B5C25D63221BEC8400BD9CE8 /* main.m */,
 				B5C25D8B221BEE3600BD9CE8 /* MetalView.h */,
 				B5C25D8C221BEE3600BD9CE8 /* MetalView.m */,
+				B5C66332221D26E700587B4E /* Shaders.metal */,
 			);
 			path = MetalByExample;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				B5C25D59221BEC8300BD9CE8 /* ViewController.m in Sources */,
 				B5C25D64221BEC8400BD9CE8 /* main.m in Sources */,
 				B5C25D56221BEC8300BD9CE8 /* AppDelegate.m in Sources */,
+				B5C66333221D26E700587B4E /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
